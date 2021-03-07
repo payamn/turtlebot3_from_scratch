@@ -25,6 +25,7 @@ find_package(catkin REQUIRED COMPONENTS
   tf2
   tf2_ros
   visualization_msgs
+  tsim
 )
 
 # find_package(rigid2d REQUIRED COMPONENTS)
