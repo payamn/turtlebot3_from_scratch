@@ -15,6 +15,7 @@ sudo apt install ros-melodic-turtlebot3-teleop
 export catkinDIR="your catkin directory"
 cd catkinDIR/src
 git clone git@github.com:payamn/turtlebot3_from_scratch.git
+cd turtlebot3_from_scratch
 git submodule update --recursive
 cd ../
 catkin build
